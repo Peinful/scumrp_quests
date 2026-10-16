@@ -1,0 +1,55 @@
+{
+  "AssociatedNPC": "GeneralGoods",
+  "Tier": 2,
+  "Title": "Template",
+  "Description": "Template",
+  "TimeLimitHours": 18,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1,
+      "Fame": 1
+    }
+  ],
+  "Conditions": [
+    {
+      "Type": "Interaction",
+      "SequenceIndex": 0,
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Samobor_45_Block_04.D_4_Samobor_45_Block_04:PersistentLevel.BP_PowerPlant_2.StaticMesh",
+          "Instance": 0,
+          "FallbackTransform": "366850.062500,344076.125000,21505.046875|0.000000,-8.403255,0.000000|1.001000,1.001000,1.001000",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Buildings/Dam/SM_Transformer.SM_Transformer"
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Samobor_40.D_4_Samobor_40:PersistentLevel.SM_ElectroHouse_5.SM_Power_Box_01_01",
+          "FallbackTransform": "360186.750000,351970.781250,21519.689453|0.000000,-117.231369,0.000000|1.001000,1.001000,1.001000",
+          "Instance": 0,
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Items/Fusebox/SM_Power_Box_01.SM_Power_Box_01"
+        },
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/D_4_Samobor_26.D_4_Samobor_26:PersistentLevel.BP_ElectroHouse_4.SM_Power_Box_01_01",
+          "FallbackTransform": "283705.468750,400826.531250,21755.402344|0.000000,-84.593422,0.000000|1.001000,1.001000,1.001000",
+          "Instance": 0,
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Items/Fusebox/SM_Power_Box_01.SM_Power_Box_01"
+        }
+      ],
+      "MinNeeded": 3,
+      "MaxNeeded": 3,
+      "TrackingCaption": "Template",
+      "WorldMarkerShowDistance": 100,
+      "LocationsShownOnMap": [
+        {
+          "Location": {
+            "X": 312018.75,
+            "Y": 370359.323123,
+            "Z": 21220.882
+          },
+          "SizeFactor": 100
+        }
+      ],
+      "CanBeAutoCompleted": false,
+      "SpawnOnlyNeeded": true
+    }
+  ]
+}
