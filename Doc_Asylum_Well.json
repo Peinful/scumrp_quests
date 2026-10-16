@@ -1,0 +1,32 @@
+{
+  "AssociatedNPC": "Doctor",
+  "Tier": 2,
+  "Title": "Delusions on Tap",
+  "Description": "A well inside of the former mental asylum, there's a rumor it might have something in the water. Go check it out for me and I'll make it worth your while.",
+  "TimeLimitHours": 18,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 1800,
+      "Fame": 30
+    }
+  ],
+  "Conditions": [
+    {
+      "Type": "Interaction",
+      "SequenceIndex": 0,
+      "Locations": [
+        {
+          "AnchorMesh": "/Game/ConZ_Files/Maps/The_Island/B_0_Hospital_Building.B_0_Hospital_Building:PersistentLevel.BP_Hospital_Klenovnik_3.ReplenishableResource",
+          "Instance": 0,
+          "FallbackTransform": "/Game/ConZ_Files/Models/Objects/Outdoor/Well/SM_Well.SM_Well",
+          "VisibleMesh": "/Game/ConZ_Files/Models/Objects/Outdoor/Well/SM_Well.SM_Well"
+        }
+      ],
+      "MinNeeded": 1,
+      "MaxNeeded": 1,
+      "TrackingCaption": "Locate and examine the well inside of the asylum",
+      "CanBeAutoCompleted": false,
+      "SpawnOnlyNeeded": false
+    }
+  ]
+}
