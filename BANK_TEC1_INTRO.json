@@ -1,0 +1,30 @@
+{
+  "AssociatedNPC": "Banker",
+  "Tier": 1,
+  "Title": "Prove you're an agent",
+  "Description": "Give me your given item to prove you're an agent. I'd ask for a password, but I don't think you'd remember it...",
+  "TimeLimitHours": 1,
+  "RewardPool": [
+    {
+      "CurrencyNormal": 100
+    }
+  ],
+  "Conditions": [
+    {
+      "Type": "Fetch",
+      "SequenceIndex": 0,
+      "RequiredItems": [
+        {
+          "AcceptedItems": [
+            "copper_coins"
+          ],
+          "RequiredNum": 1
+        }
+      ],
+      "TrackingCaption": "Give the Banker your coin. ONLY FOR TEC-1 AGENTS",
+      "PlayerKeepsItems": false,
+      "DisablePurchaseOfRequiredItems": true,
+      "CanBeAutoCompleted": false
+    }
+  ]
+}
